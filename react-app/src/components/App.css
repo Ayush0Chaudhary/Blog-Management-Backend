@@ -1,0 +1,71 @@
+.navbar button {
+    
+    background-color: #7e81dd;
+/* margin: 1%; */
+    font: bold;
+    color: #d1d1d1;
+padding: 14px 16px;
+border: none;
+cursor: pointer; 
+outline: none;
+transition: 0.3s;
+
+
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+
+}
+
+.titlebutton {
+    border: none;
+    background-color:#191ca0;
+    padding: 4px 50px;
+    border: none;
+    cursor: pointer; 
+    outline: none;
+    transition: 0.3s;
+}
+.titlebutton:hover {
+    background-color:rgb(184, 94, 219) ;
+}
+.blog-list {
+    background-color:rgb(41, 78, 129);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* min-height: 10vh;
+    max-height: 20vh; */
+    background: rgb(13, 44, 86);
+    color: white;
+    list-style: none;
+  
+  }
+
+.navbar button:hover {
+    background-color:rgb(160, 19, 216) ;
+}
+
+.navbar button.active {
+    background-color: #040b21;
+}
+
+.tabs {
+    animation: fadeeffect 1s;
+}
+@keyframes fadeeffect {
+    from {opacity: 0;}
+    to {
+        opacity: 1;
+    }
+}
+
+h5{
+    color: #d1d1d1;
+}
